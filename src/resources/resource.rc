@@ -1,0 +1,15 @@
+#include "resource.h"
+
+// Icon resource
+IDI_TRAY_ICON           ICON                    "icon.ico"
+
+
+// Menu resource
+IDR_MENU                MENU
+BEGIN
+        POPUP "&Menu"
+BEGIN
+        MENUITEM "Configure",            ID_TRAY_MENU_CONFIGURE
+        MENUITEM "Stop",                 ID_TRAY_MENU_STOP
+        END
+END
