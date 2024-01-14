@@ -1,0 +1,7 @@
+#pragma once
+
+#define IDI_TRAY_ICON 101
+
+#define IDR_TRAY_MENU 201
+#define ID_TRAY_MENU_CONFIGURE 211
+#define ID_TRAY_MENU_STOP 212
